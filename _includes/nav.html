@@ -1,0 +1,12 @@
+<nav>
+  <a class="nav-logo" href="/"><h2 class="nav-logo">HxC BBG</h2></a>
+  <ul>
+    {% for path in site.data.nav %}
+      <li>
+        <a href="{{ path.link }}" {% if page.url == path.link %}class="current"{% endif %}>
+          {{ path.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,32 @@
+body {
+  background: url('../images/landing-thing.jpg/') no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  background-blend-mode: luminosity;
+  background-color: hsla(0deg, 0%,100%,1)
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, 0.704);
+  height: 85vh
+}
+
+.the-stone {
+  border: 7px solid rgb(216, 204, 188);
+  border-radius: 45% 45% 0 0;
+
+  padding: 75px 15px 60px 15px;
+  margin-top: 50px;
+}
+
+.the-stone:hover {
+  background-color: rgb(216, 204, 188);
+  color: rgb(11, 16, 24);
+}

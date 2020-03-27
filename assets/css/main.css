@@ -1,0 +1,78 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+
+  background: rgb(11, 16, 24);
+  color: rgb(216, 204, 188);
+}
+
+h1 {
+  font-size: 3rem;
+  font-size: min(max(32px, 4vw), 48px);
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-size: min(max(22px, 4vw), 32px);
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-size: min(max(20px, 4vw), 28px);
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-size: min(max(18px, 4vw), 24px);
+}
+
+p {
+  font-size: 1rem;
+  font-size: min(max(10px, 4vw), 16px);
+}
+
+
+
+
+/* Nav bar Jazz */
+.current {
+  border-bottom: 3px solid rgb(216, 204, 188);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 10vw;
+
+  height: 15vh;
+  min-height: 75px;
+  width: 100%;
+  
+  background: rgb(24, 33, 46);
+}
+
+.nav-logo {
+  display: flex;
+  justify-self: start;
+
+  margin: 0 10px 0 0;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav > ul a {
+  font-size: 1.5rem;
+  font-size: min(max(11px, 4vw), 20px);
+  padding: 10px;
+}
+
+
+/* Main section */
+
+main {
+  padding: 5vh 10vw;
+}

@@ -1,0 +1,9 @@
+article {
+  width: 100%;
+}
+
+article > img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 35px;
+}

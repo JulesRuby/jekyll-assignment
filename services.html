@@ -1,0 +1,16 @@
+---
+layout: default
+title: Services
+---
+<h1>Services</h1>
+{% assign servicelist = site.services | sort: 'price' %}
+<ul class="service-list">
+  <!-- Look into how I can actually sort by the size of the number, and not based on the first digit's position on a 0-9 scale :/ -->
+  {% for service in servicelist %}
+    <li>
+      <h2>{{ service.service }}</h2>
+      <h3>{{ service.price }}</h3>
+      <p>{{ service.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
